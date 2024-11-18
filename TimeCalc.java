@@ -5,11 +5,10 @@ public class TimeCalc {
         //String time = args[0];
         int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
         int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
-        System.out.println(hours + ":" + minutes);
+        // System.out.println(hours + ":" + minutes);
         int addMinutes = Integer.parseInt(args[1]);
-        System.out.println("adding " + addMinutes + " minutes to the time");
+        //System.out.println("adding " + addMinutes + " minutes to the time");
         totalTime = (hours * 60) + minutes + addMinutes;
-        //System.out.println("all time in minutes" + totalTime+"\n"+hours+", "+minutes);
         int minutes2hours = totalTime / 60;
 
 
