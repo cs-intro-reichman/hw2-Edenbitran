@@ -12,14 +12,14 @@ public class Cheers {
                                         || word.charAt(i) == 'X' || word.charAt(i) == 'S') {
                                 System.out.print("Give me an " + word.charAt(i) + ": "
                                                 + word.charAt(i)
-                                                + "!\n");
+                                                + "!");
                         } else {
                                 System.out.print("Give me a " + word.charAt(i) + ": "
-                                                + word.charAt(i) + "!\n");
+                                                + word.charAt(i) + "!");
 
                         }
                 }
-                System.out.print("What does that spell?\n");
+                System.out.print("What does that spell?");
                 for (int i = 0; i < times; i++) {
                         System.out.print(word + "!!!");
                 }
