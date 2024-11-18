@@ -11,15 +11,7 @@ public class TimeCalc {
         totalTime = (hours * 60) + minutes + addMinutes;
         //System.out.println("all time in minutes" + totalTime+"\n"+hours+", "+minutes);
         int minutes2hours = totalTime / 60;
-        // newHour = minutes2hours % 24;
-        // newMinutes = totalTime - (newHour * 60);
 
-        // if (newMinutes < 10 && newMinutes < 1440) {
-        //     System.out.println(newHour + ":0" + newMinutes);
-        // }
-        // else {
-        //     System.out.println(newHour + ":" + newMinutes);
-        // }
 
         if (totalTime < 1440) {
            // System.out.println("under 1 day " + totalTime);
