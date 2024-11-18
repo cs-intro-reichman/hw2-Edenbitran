@@ -9,18 +9,18 @@ public class Cheers {
                                         word.charAt(i) == 'I' || word.charAt(i) == 'l' || word.charAt(i) == 'M' ||
                                         word.charAt(i) == 'N' || word.charAt(i) == 'O' || word.charAt(i) == 'R'
                                         || word.charAt(i) == 'X' || word.charAt(i) == 'S') {
-                                System.out.println("Give me an " + word.toUpperCase().charAt(i) + ": "
+                                System.out.print("Give me an " + word.toUpperCase().charAt(i) + ": "
                                                 + word.toUpperCase().charAt(i)
-                                                + "!");
+                                                + "!\n");
                         } else {
-                                System.out.println("Give me a " + word.toUpperCase().charAt(i) + ": "
-                                                + word.toUpperCase().charAt(i) + "!");
+                                System.out.print("Give me a " + word.toUpperCase().charAt(i) + ": "
+                                                + word.toUpperCase().charAt(i) + "!\n");
 
                         }
                 }
                 System.out.println("What does that spell?");
                 for (int i = 0; i < times; i++) {
-                        System.out.println(word.toUpperCase() + "!!!");
+                        System.out.print(word.toUpperCase() + "!!!\n");
                 }
         }
 }
