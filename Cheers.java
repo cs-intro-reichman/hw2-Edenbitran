@@ -3,7 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
                 String word = args[0];
                 int times = Integer.parseInt(args[1]);
-                for (int i = 0; i < times; i++) {
+                for (int i = 0; i < word.length(); i++) {
                         if (word.charAt(i) == 'A' || word.charAt(i) == 'E' || word.charAt(i) == 'F'
                                         || word.charAt(i) == 'H' ||
                                         word.charAt(i) == 'I' || word.charAt(i) == 'l' || word.charAt(i) == 'M' ||
@@ -14,6 +14,10 @@ public class Cheers {
                                 System.out.println("Give me a " + word.charAt(i) + ": " + word.charAt(i) + "!");
 
                         }
+                }
+                System.out.println("What does that spell?");
+                for (int i = 0; i < times; i++) {
+                        System.out.println(word + "!!!");
                 }
         }
 }
