@@ -10,18 +10,18 @@ public class Cheers {
                                         word.charAt(i) == 'I' || word.charAt(i) == 'l' || word.charAt(i) == 'M' ||
                                         word.charAt(i) == 'N' || word.charAt(i) == 'O' || word.charAt(i) == 'R'
                                         || word.charAt(i) == 'X' || word.charAt(i) == 'S') {
-                                System.out.print("Give me an " + word.charAt(i) + ": "
+                                System.out.println("Give me an " + word.charAt(i) + ": "
                                                 + word.charAt(i)
                                                 + "!");
                         } else {
-                                System.out.print("Give me a " + word.charAt(i) + ": "
+                                System.out.println("Give me a " + word.charAt(i) + ": "
                                                 + word.charAt(i) + "!");
 
                         }
                 }
-                System.out.print("What does that spell?");
+                System.out.println("What does that spell?");
                 for (int i = 0; i < times; i++) {
-                        System.out.print(word + "!!!");
+                        System.out.println(word + "!!!");
                 }
         }
 }
