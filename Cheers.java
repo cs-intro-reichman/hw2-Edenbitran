@@ -2,6 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
                 String word = args[0];
+                word = word.toUpperCase();
                 int times = Integer.parseInt(args[1]);
                 for (int i = 0; i < word.length(); i++) {
                         if (word.charAt(i) == 'A' || word.charAt(i) == 'E' || word.charAt(i) == 'F'
@@ -9,18 +10,18 @@ public class Cheers {
                                         word.charAt(i) == 'I' || word.charAt(i) == 'l' || word.charAt(i) == 'M' ||
                                         word.charAt(i) == 'N' || word.charAt(i) == 'O' || word.charAt(i) == 'R'
                                         || word.charAt(i) == 'X' || word.charAt(i) == 'S') {
-                                System.out.print("Give me an " + word.toUpperCase().charAt(i) + ": "
-                                                + word.toUpperCase().charAt(i)
+                                System.out.print("Give me an " + word.charAt(i) + ": "
+                                                + word.charAt(i)
                                                 + "!\n");
                         } else {
-                                System.out.print("Give me a " + word.toUpperCase().charAt(i) + ": "
-                                                + word.toUpperCase().charAt(i) + "!\n");
+                                System.out.print("Give me a " + word.charAt(i) + ": "
+                                                + word.charAt(i) + "!\n");
 
                         }
                 }
-                System.out.println("What does that spell?");
+                System.out.print("What does that spell?\n");
                 for (int i = 0; i < times; i++) {
-                        System.out.print(word.toUpperCase() + "!!!\n");
+                        System.out.print(word + "!!!");
                 }
         }
 }
