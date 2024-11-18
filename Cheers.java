@@ -7,7 +7,7 @@ public class Cheers {
                 for (int i = 0; i < word.length(); i++) {
                         if (word.charAt(i) == 'A' || word.charAt(i) == 'E' || word.charAt(i) == 'F'
                                         || word.charAt(i) == 'H' ||
-                                        word.charAt(i) == 'I' || word.charAt(i) == 'l' || word.charAt(i) == 'M' ||
+                                        word.charAt(i) == 'I' || word.charAt(i) == 'L' || word.charAt(i) == 'M' ||
                                         word.charAt(i) == 'N' || word.charAt(i) == 'O' || word.charAt(i) == 'R'
                                         || word.charAt(i) == 'X' || word.charAt(i) == 'S') {
                                 System.out.println("Give me an " + word.charAt(i) + ": "
