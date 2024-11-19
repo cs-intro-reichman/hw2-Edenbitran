@@ -8,6 +8,8 @@ public class Collatz {
 			System.out.println("Every one of the first " + number + " hailstone sequences reached 1.");
 		}
 		if (mood.charAt(0) == 'v') {
+			System.out.println("Every one of the first " + number + " hailstone sequences reached 1.");
+
 			for (int i = 1; i <= number; i++) {
 				int num = i;
 				String str = i + " ";
