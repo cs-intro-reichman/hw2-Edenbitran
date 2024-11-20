@@ -3,7 +3,7 @@ public class CalcPi {
 	public static void main(String[] args) {
 
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + sqrt(Double.parseDouble(args[0])));
+		System.out.println("pi, approximated:     " + sqrt(Double.parseDouble(args[0])));
 	}
 
 	public static double sqrt(double number) {
